@@ -1,0 +1,66 @@
+$ms-base: 1em;
+$ms-ratio: 1.125;
+$ms-fluid: true;
+
+$typi: (
+  null: 16px
+);
+
+// $breakpoints defined in _layout.scss
+
+$p-map: (
+  null: ms(4),
+  iPhone5_l: ms(4),
+  iPadAir_l: ms(4)
+);
+
+$h1-map: (
+  null: ms(6),
+  iPhone5_l: ms(8),
+  iPadAir_l: ms(11)
+);
+
+$h2-map: (
+  null: ms(4),
+  iPhone5_l: ms(4),
+  iPadAir_l: ms(4)
+);
+
+$h3-map: (
+  null: ms(4),
+  iPhone5_l: ms(4),
+  iPadAir_l: ms(4)
+);
+
+$h4-map: (
+  null: ms(4),
+  iPhone5_l: ms(4),
+  iPadAir_l: ms(4)
+);
+
+$small-map: (
+  null: ms(4),
+  iPhone5_l: ms(4),
+  iPadAir_l: ms(4)
+);
+
+html {@include typi-base();}
+h1 {@include typi($h1-map);}
+h2 {@include typi($h2-map);}
+h3 {@include typi($h3-map);}
+h4 {@include typi($h4-map);}
+p {@include typi($p-map);}
+small {@include typi($small-map);}
+
+body {
+  font-family: "ministry", sans-serif;
+  font-weight: 300;
+}
+
+a {
+  text-decoration: none;
+}
+
+strong {
+  font-weight: 500;
+}

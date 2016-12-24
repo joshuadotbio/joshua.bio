@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+.post__header {
+  @include container();
+  padding: 2em 1em;
+
+  @include breakpoint(bp(iPadAir_l) + 36px) {
+    padding: 2em 0;
+  }
+}
+
+.post__body {
+  @include container();
+  padding: 1em;
+
+  @include breakpoint(bp(iPadAir_l)) {
+    padding: 2em 6em;
+  }
+}

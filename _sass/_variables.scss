@@ -1,0 +1,26 @@
+$breakpoints: (
+  iPhone5_p: 320px,
+  iPhone6_p: 375px,
+  iPhone5_l: 568px,
+  iPhone6_l: 667px,
+  iPadAir_p: 768px,
+  iPadAir_l: 1024px
+);
+
+$z: (
+  England: -9999
+);
+
+$susy: (
+  flow: ltr,
+  math: fluid,
+  output: float,
+  gutter-position: inside,
+  container: bp(iPadAir_l),
+  container-position: center,
+  columns: 12,
+  gutters: .25,
+  column-width: false,
+  global-box-sizing: border-box,
+  last-flow: to
+);

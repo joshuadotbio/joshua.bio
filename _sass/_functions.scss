@@ -1,0 +1,15 @@
+@function bp($key) {
+  @if map-has-key($breakpoints, $key) {
+    @return map-get($breakpoints, $key);
+  }
+  @warn "Unknown `#{$key}` in $colors.";
+  @return null;
+}
+
+@function z($key) {
+  @if map-has-key($z, $key) {
+    @return map-get($z, $key);
+  }
+  @warn "Unknown `#{$key}` in $colors.";
+  @return null;
+}
