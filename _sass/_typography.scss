@@ -9,39 +9,51 @@ $typi: (
 // $breakpoints defined in _layout.scss
 
 $p-map: (
-  null: ms(4),
-  iPhone5_l: ms(4),
-  iPadAir_l: ms(4)
+  null: (ms(0), 1.5),
+  iPhone5_l: (ms(2)),
+  iPadAir_l: (ms(3), 1.6)
 );
 
 $h1-map: (
-  null: ms(6),
+  null: (ms(6), 1),
   iPhone5_l: ms(8),
-  iPadAir_l: ms(11)
+  iPadAir_l: ms(13)
 );
 
 $h2-map: (
-  null: ms(4),
-  iPhone5_l: ms(4),
-  iPadAir_l: ms(4)
+  null: (ms(5), 1),
+  iPhone5_l: (ms(7)),
+  iPadAir_l: (ms(10))
 );
 
 $h3-map: (
-  null: ms(4),
-  iPhone5_l: ms(4),
-  iPadAir_l: ms(4)
+  null: (ms(4), 1),
+  iPhone5_l: (ms(6)),
+  iPadAir_l: (ms(9))
 );
 
 $h4-map: (
-  null: ms(4),
-  iPhone5_l: ms(4),
-  iPadAir_l: ms(4)
+  null: (ms(3), 1),
+  iPhone5_l: (ms(5)),
+  iPadAir_l: (ms(8))
+);
+
+$h5-map: (
+  null: (ms(2), 1),
+  iPhone5_l: (ms(4)),
+  iPadAir_l: (ms(7))
+);
+
+$h6-map: (
+  null: (ms(1), 1),
+  iPhone5_l: (ms(3)),
+  iPadAir_l: (ms(6))
 );
 
 $small-map: (
-  null: ms(4),
-  iPhone5_l: ms(4),
-  iPadAir_l: ms(4)
+  null: (ms(-1), 1),
+  iPhone5_l: (ms(0)),
+  iPadAir_l: (ms(0))
 );
 
 html {@include typi-base();}
@@ -49,6 +61,8 @@ h1 {@include typi($h1-map);}
 h2 {@include typi($h2-map);}
 h3 {@include typi($h3-map);}
 h4 {@include typi($h4-map);}
+h5 {@include typi($h5-map);}
+h6 {@include typi($h6-map);}
 p {@include typi($p-map);}
 small {@include typi($small-map);}
 

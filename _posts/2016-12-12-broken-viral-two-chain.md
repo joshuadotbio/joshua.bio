@@ -24,7 +24,7 @@ An ‘extremely credible source’ has called my office and told me that Barack 
 
 Look at that text! Would anyone use that? Can you imagine that, the text of your next webpage?! Some people have an ability to write placeholder text... It's an art you're basically born with. You either have it or you don't. Trump Ipsum is calling for a total and complete shutdown of Muslim text entering your website. You’re disgusting.
 
-#### Heading number 4
+##### Heading number 5
 
 All of the words in Lorem Ipsum have flirted with me - consciously or unconsciously. That's to be expected. I think the only card she has is the Lorem card. Trump Ipsum is calling for a total and complete shutdown of Muslim text entering your website. All of the words in Lorem Ipsum have flirted with me - consciously or unconsciously. That's to be expected. Look at that text! Would anyone use that? Can you imagine that, the text of your next webpage?!
 
@@ -35,6 +35,18 @@ An ‘extremely credible source’ has called my office and told me that Barack 
 We are going to make placeholder text great again. Greater than ever before. I have a 10 year old son. He has words. He is so good with these words it's unbelievable. When other websites give you text, they’re not sending the best. They’re not sending you, they’re sending words that have lots of problems and they’re bringing those problems with us. They’re bringing mistakes. They’re bringing misspellings. They’re typists… And some, I assume, are good words. The other thing with Lorem Ipsum is that you have to take out its family. I write the best placeholder text, and I'm the biggest developer on the web by far... While that's mock-ups and this is politics, are they really so different?
 
 You’re disgusting.
+
+# Level 1
+
+## Level 2
+
+### Level 3
+
+#### Level 4
+
+##### Level 5
+
+###### Level 6
 
 It’s about making placeholder text great again. That’s what people want, they want placeholder text to be great again. When other websites give you text, they’re not sending the best. They’re not sending you, they’re sending words that have lots of problems and they’re bringing those problems with us. They’re bringing mistakes. They’re bringing misspellings. They’re typists… And some, I assume, are good words.
 

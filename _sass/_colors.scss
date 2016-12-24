@@ -1,5 +1,14 @@
 body {
   background: black;
+  line-height: 1.3;
+}
+
+a {
+  color: #20c;
+  &:hover {
+    color: #20C;
+    text-decoration: underline;
+  }
 }
 
 .post__header {
