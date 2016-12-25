@@ -4,14 +4,6 @@ layout: default
 <article class="post">
   <header class="post__header">
     <h1>{{ page.title }}</h1>
-    <div class="post__byline">
-      <a href="/">Joshua Gonzales</a>
-      <span class="separator">&bull;</span>
-      Published on {{ page.date | date: "%Y&nbsp;%b&nbsp;%-d" }}
-      {% if page.update_date %}
-      and updated on {{ page.update_date | date: "%Y&nbsp;%b&nbsp;%-d" }}
-      {% endif %}
-    </div>
   </header>
   <div class="post__body">
     {{ page.content }}
