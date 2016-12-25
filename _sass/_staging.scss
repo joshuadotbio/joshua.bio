@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background: url('/assets/patterns/cartographer.png') repeat;
+}
+
 .post__header {
   @include container();
   padding: 2em 1em;

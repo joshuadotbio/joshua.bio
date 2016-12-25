@@ -8,7 +8,7 @@ seo_description: The SEO description
 facebook_image:
 ---
 
-Look at that text! Would anyone use that? Can you imagine that, the text of your next webpage?! If Trump Ipsum weren’t my own words, perhaps I’d be dating it. Be careful, or I will spill the beans on your placeholder text. Be careful, or I will spill the beans on your placeholder text. We are going to make placeholder text great again. Greater than ever before.
+I say unto you, just take a look at that text! Would anyone use that? Can you imagine that, the text of your next webpage?! If Trump Ipsum weren’t my own words, perhaps I’d be dating it. Be careful, or I will spill the beans on your placeholder text. Be careful, or I will spill the beans on your placeholder text. We are going to make placeholder text great again. Greater than ever before.
 
 ## Heading number 2
 
