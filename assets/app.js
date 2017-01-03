@@ -11,3 +11,10 @@ $(function() {
   });
   window.Dropcap.layout(document.querySelectorAll(".dropcap"), 3, 2);
 });
+
+$(function() {
+  $('.grid').isotope({
+    itemSelector: '.grid-item',
+    percentPosition: true
+  })
+})

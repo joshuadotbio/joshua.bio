@@ -2,28 +2,19 @@
   box-sizing: border-box;
 }
 
-body {
-  background: url('/assets/patterns/cartographer.png') repeat;
+.layer {
+  @extend %vpad;
 }
 
-.post__header {
+.layer-inside {
   @include container();
-  padding: 2em 1em;
-
-  @include breakpoint(bp(iPadAir_l) + 36px) {
-    padding: 4em 0;
-  }
-
-  h1 {
-    margin: 0;
-  }
 }
 
-.post__body {
-  @include container();
-  padding: 1em;
-
+.post-listings {
   @include breakpoint(bp(iPadAir_l)) {
-    padding: 3.5em 6em;
+    @include span(8);
   }
+}
+
+.post-listing {
 }

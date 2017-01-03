@@ -1,17 +1,9 @@
-<div class="topbar-wrap">
-  <div class="topbar">
-    <a class="topbar__item" href="/">
-      <small>Joshua Gonzales</small>
-    </a>
-    {% if page.date %}
-    <div class="topbar__item">
-      <small>Published: {{ page.date | date: "%Y %B %-d" }}</small>
+<div class="topbar">
+  <div class="topbar-inner">
+    <a class="site-name" href="/">Joshua&nbsp;<span class="joshua-does"></span></a>
+    <div class="links">
+      <a class="link">Menu</a>
+      <a class="link">Menu</a>
     </div>
-    {% endif %}
-    {% if page.update_date %}
-    <div class="topbar__item">
-      <small>Updated: {{ page.update_date | date: "%Y %B %-d" }}</small>
-    </div>
-    {% endif %}
   </div>
 </div>

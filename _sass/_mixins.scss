@@ -1,0 +1,24 @@
+%hpad {
+  padding-left: 1em;
+  padding-right: 1em;
+
+  @include breakpoint(bp(iPadAir_p)) {
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+
+  @include breakpoint(bp(iPadAir_l)) {
+    padding-left: 3em;
+    padding-right: 3em;
+  }
+}
+
+%vpad {
+  padding-top: 2em;
+  padding-bottom: 2em;
+
+  @include breakpoint(bp(iPadAir_p)) {
+    padding-top: 4em;
+    padding-bottom: 4em;
+  }
+}

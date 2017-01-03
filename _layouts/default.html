@@ -24,12 +24,15 @@ layout: compress
     <meta name="description" content="{% if page.seo_description %}{{ page.seo_description | strip_html | strip_newlines }}{% elsif page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description | strip_html | strip_newlines }}{% endif %}"/>
 
     <link rel="canonical" href="{{ page.url | prepend: site.baseurl | prepend: site.url }}"/>
+    <link async rel="stylesheet" href="/assets/app.css"/>
+    {% comment %}
     {% capture _SASS %}
       {% include inline.scss %}
     {% endcapture %}
     <style>
     {{ _SASS | scssify }}
     </style>
+    {% endcomment %}
     {% include typekit.html %}
   </head>
   <body>

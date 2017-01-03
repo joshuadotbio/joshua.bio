@@ -1,32 +1,33 @@
-.topbar-wrap {}
 
-.topbar {
-  padding: 1em;
-  color: #eee;
+
+.topbar-inner {
   @include container();
+  position: relative;
+  border-bottom: 4px solid black;
 
-  @include breakpoint(bp(iPadAir_l) + 36px) {
-    padding: 1em 0;
+  .links {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+
+  .link {
+    display: inline-block;
+    float: right;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-left: 1em;
   }
 }
 
-.topbar__item {
+.site-name {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   display: inline-block;
-  padding: 0.33em 0.66em;
-  background: rgba(255,255,255,0.08);
-  color: #eee;
-  margin-bottom: 0.33em;
-}
-
-a.topbar__item {
-  border-left: 0.2em solid #20c;
+  color: inherit;
+  font-weight: bold;
 
   &:hover {
-    text-decoration: none;
-    color: #eee;
+    color: inherit;
   }
-}
-
-div.topbar__item {
-  color: #aaa;
 }

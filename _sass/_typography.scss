@@ -5,15 +5,8 @@ body {
   font-weight: 300;
 }
 
-.dropcap {
+p {
   font-family: "leitura-news", serif;
-  font-weight: 400;
-  margin-left: -0.05em;
-  margin-right: 0.05em;
-
-  @include breakpoint(bp(iPadAir_l)) {
-    margin-left: -0.2em;
-  }
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -23,6 +16,12 @@ h1, h2, h3, h4, h5, h6 {
 
 a {
   text-decoration: none;
+}
+
+.dropcap {
+  font-family: "leitura-news", serif;
+  font-weight: 400;
+  margin-right: 0.05em;
 }
 
 $ms-base: 1em;
@@ -81,6 +80,12 @@ $small-map: (
   iPadAir_l: (ms(0))
 );
 
+$site-name-map: (
+  null: (ms(0), 1),
+  iPhone5_l: (ms(2)),
+  iPadAir_l: (ms(3))
+);
+
 html {@include typi-base();}
 h1 {@include typi($h1-map);}
 h2 {@include typi($h2-map);}
@@ -90,3 +95,11 @@ h5 {@include typi($h5-map);}
 h6 {@include typi($h6-map);}
 p {@include typi($p-map);}
 small {@include typi($small-map);}
+
+.site-name {
+  @include typi($site-name-map);
+}
+
+.topbar-inner .link {
+  @include typi($small-map);
+}
