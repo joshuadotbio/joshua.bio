@@ -1,15 +1,11 @@
 ---
 layout: default
 ---
-<section id="posts" class="layer">
-  <div class="layer-inside">
-    <div class="post-listings grid">
-      {% for post in site.posts %}
-      <article class="post-listing grid-item">
-        <h1 class="h3"><a href="{{ post.url }}">{{ post.title }}</a></h1>
-        <p>{{ post.description }}</p>
-      </article>
-      {% endfor %}
-    </div>
-  </div>
+<section id="posts" class="post-listings grid">
+  {% for post in site.posts %}
+  <article class="post-listing grid-item" href="{{ post.url }}">
+    <h1 class="card-title"><a href="{{ post.url }}">{{ post.title }}</a></h1>
+    <p>{{ post.description }}</p>
+  </article>
+  {% endfor %}
 </section>

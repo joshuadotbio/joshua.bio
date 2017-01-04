@@ -25,16 +25,12 @@ layout: compress
 
     <link rel="canonical" href="{{ page.url | prepend: site.baseurl | prepend: site.url }}"/>
     <script async src="https://use.fontawesome.com/312d533e91.js"></script>
-    <link rel="stylesheet" href="/assets/app.css"/>
-    {% comment %}
     {% capture _SASS %}
       {% include inline.scss %}
     {% endcapture %}
     <style>
     {{ _SASS | scssify }}
     </style>
-    {% endcomment %}
-    {% include typekit.html %}
   </head>
   <body>
     {% include topbar.html %}

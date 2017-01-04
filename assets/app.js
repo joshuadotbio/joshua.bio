@@ -34,6 +34,10 @@ $('.phrasing').click(function() {
   phrasing.update();
 });
 
+$('.post-listing').click(function() {
+  window.location = this.getAttribute("href");
+})
+
 $(function() {
   $('.post-body p').first().html(function (i, html) {
     return html.replace(/^[^a-zA-Z]*([a-zA-Z])/g, '<span class="dropcap">$1</span>');
@@ -42,8 +46,12 @@ $(function() {
 });
 
 $(function() {
-  $('.grid').isotope({
-    itemSelector: '.grid-item',
-    percentPosition: true
+  $('.post-listings').isotope({
+    itemSelector: '.post-listing',
+    percentPosition: true,
+    masonry: {
+      gutter: 0,
+      columnWidth: '.post-listing'
+    }
   })
 });

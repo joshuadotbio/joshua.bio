@@ -5,6 +5,7 @@ $breakpoints: (
   iPhone6_l: 667px,
   iPadAir_p: 768px,
   iPadAir_l: 1024px,
+  laptop: 1440px,
   container: 1024px
 );
 
@@ -16,7 +17,7 @@ $susy: (
   flow: ltr,
   math: fluid,
   output: float,
-  gutter-position: inside,
+  gutter-position: split,
   container: bp(container),
   container-position: center,
   columns: 12,

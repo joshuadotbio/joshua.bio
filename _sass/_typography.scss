@@ -86,6 +86,12 @@ $site-name-map: (
   null: (ms(2), 1)
 );
 
+$card-title-map: (
+  null: (ms(3), 1),
+  iPhone5_l: (ms(4)),
+  iPadAir_l: (ms(5))
+);
+
 html {@include typi-base();}
 h1, .h1 {@include typi($h1-map);}
 h2, .h2 {@include typi($h2-map);}
@@ -107,4 +113,8 @@ small {@include typi($small-map);}
 
 .topbar-inner .link {
   @include typi($small-map);
+}
+
+.card-title {
+  @include typi($card-title-map);
 }

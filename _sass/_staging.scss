@@ -6,6 +6,7 @@ body {
   background: white;
   padding-left: 1rem;
   padding-right: 1rem;
+  padding-bottom: 12rem;
 }
 
 .layer {
@@ -17,13 +18,53 @@ body {
 }
 
 .post-listings {
+  margin-top: 3em;
 }
 
 .post-listing {
   @include span(12);
+  background: #222;
+  color: white;
+  padding: 1em;
+  margin-bottom: 1px;
+  transition: all 0.25s;
+  cursor: pointer;
+
+  .card-title {
+    color: white;
+    margin-top: 0;
+    a {
+      color: white;
+      &:hover {
+        color: white;
+      }
+    }
+  }
+
+  &:hover {
+    background: white;
+    color: black;
+    .card-title {
+      color: black;
+      margin-top: 0;
+      a {
+        color: black;
+        &:hover {
+          color: black;
+        }
+      }
+    }
+  }
 
   @include breakpoint(bp(iPadAir_l)) {
-    @include span(6);
+    @include span(4);
+    border-right: 1px solid white;
+    padding: 2em;
+  }
+
+  @include breakpoint(bp(laptop)) {
+    @include span(3);
+    padding: 3em;
   }
 }
 
