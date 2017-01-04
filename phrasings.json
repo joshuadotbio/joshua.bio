@@ -1,7 +1,0 @@
----
----
-{
-  "phrasings": [
-    {% for phrasing in site.data.phrasings %}"{{ phrasing }}"{% if forloop.last %}{% else %},{% endif %}{% endfor %}
-  ]
-}

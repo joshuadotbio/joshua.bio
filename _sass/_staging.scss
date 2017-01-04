@@ -2,6 +2,12 @@
   box-sizing: border-box;
 }
 
+body {
+  background: white;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
 .layer {
   @extend %vpad;
 }
@@ -11,10 +17,20 @@
 }
 
 .post-listings {
-  @include breakpoint(bp(iPadAir_l)) {
-    @include span(8);
-  }
 }
 
 .post-listing {
+  @include span(12);
+
+  @include breakpoint(bp(iPadAir_l)) {
+    @include span(6);
+  }
+}
+
+.post {
+  @include container();
+}
+
+.post-header {
+  padding-bottom: 0.1em;
 }

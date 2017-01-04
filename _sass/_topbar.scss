@@ -1,33 +1,64 @@
 
 
 .topbar-inner {
-  @include container();
   position: relative;
   border-bottom: 4px solid black;
+  height: 4em;
 
   .links {
     position: absolute;
     right: 0;
     bottom: 0;
+    float: right;
   }
 
   .link {
     display: inline-block;
-    float: right;
+    margin-left: 1rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    margin-left: 1em;
+    color: inherit;
+    &:hover {
+      color: inherit;
+    }
   }
 }
 
 .site-name {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
   display: inline-block;
   color: inherit;
-  font-weight: bold;
+  text-align: left;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding-bottom: 1rem;
 
-  &:hover {
+  a {
     color: inherit;
+    display: inline-block;
+  }
+
+  a:hover {
+    color: #20c;
+  }
+
+  .surname {
+    display: none;
+    @include breakpoint(bp(iPadAir_l)) {
+      display: inline;
+    }
+  }
+
+  .phrasing {
+    cursor: pointer;
+    display: none;
+
+    @include breakpoint(bp(iPadAir_l)) {
+      display: inline;
+    }
+
+    &:hover {
+      color: #20c;
+    }
   }
 }
