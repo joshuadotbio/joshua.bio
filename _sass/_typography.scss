@@ -98,6 +98,10 @@ small {@include typi($small-map);}
 
 .site-name {
   @include typi($site-name-map);
+
+  .phrasing {
+    font-weight: 300;
+  }
 }
 
 .topbar-inner .link {
