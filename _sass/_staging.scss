@@ -2,19 +2,37 @@
   box-sizing: border-box;
 }
 
+%hpad {
+  padding-left: 1em;
+  padding-right: 1em;
+
+  @include breakpoint(bp(iPadAir_p)) {
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+
+  @include breakpoint(bp(iPadAir_l)) {
+    padding-left: 3em;
+    padding-right: 3em;
+  }
+}
+
+%vpad {
+  padding-top: 2em;
+  padding-bottom: 2em;
+
+  @include breakpoint(bp(iPadAir_p)) {
+    padding-top: 4em;
+    padding-bottom: 4em;
+  }
+}
+
+
 body {
   background: white;
   padding-left: 1rem;
   padding-right: 1rem;
   padding-bottom: 12rem;
-}
-
-.layer {
-  @extend %vpad;
-}
-
-.layer-inside {
-  @include container();
 }
 
 .post-listings {

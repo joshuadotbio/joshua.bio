@@ -1,22 +1,19 @@
-
-
-.topbar-inner {
+.topbar {
   position: relative;
   border-bottom: 4px solid black;
-  height: 4em;
+  height: $topbar-height;
 
   .links {
     position: absolute;
     right: 0;
     bottom: 0;
+    padding-bottom: 1rem;
     float: right;
   }
 
   .link {
     display: inline-block;
     margin-left: 1rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
     color: inherit;
     &:hover {
       color: inherit;

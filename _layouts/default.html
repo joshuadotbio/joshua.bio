@@ -3,35 +3,7 @@ layout: compress
 ---
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <meta property="og:url" content="{{ page.url | prepend: site.baseurl | prepend: site.url }}" />
-    <meta property="og:type" content="article"/>
-    {% if page.title %}
-    <meta property="og:title" content="{{ page.title | escape }}"/>
-    {% endif %}
-    {% if page.description %}
-    <meta property="og:description" content="{{ page.description }}"/>
-    {% endif %}
-    {% if page.facebook_image %}
-    <meta property="og:image" content="{{ page.facebook_image }}"/>
-    {% endif %}
-
-    <title>{% if page.seo_title %}{{ page.seo_title | escape }}{% elsif page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
-    <meta name="description" content="{% if page.seo_description %}{{ page.seo_description | strip_html | strip_newlines }}{% elsif page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description | strip_html | strip_newlines }}{% endif %}"/>
-
-    <link rel="canonical" href="{{ page.url | prepend: site.baseurl | prepend: site.url }}"/>
-    <script async src="https://use.fontawesome.com/312d533e91.js"></script>
-    {% capture _SASS %}
-      {% include inline.scss %}
-    {% endcapture %}
-    <style>
-    {{ _SASS | scssify }}
-    </style>
-  </head>
+  {% include head.html %}
   <body>
     {% include topbar.html %}
     {{ content }}
