@@ -1,25 +1,5 @@
-
-
-body {
-  font-family: sans-serif;
-}
-
-.post {
-  font-family: serif;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  margin: 0.85em 0;
-}
-
-a {
-  text-decoration: none;
-}
-
-.dropcap {
-  font-family: serif;
-  margin-right: 0.05em;
-}
+$sans: sans-serif;
+$serif: serif;
 
 $ms-base: 1em;
 $ms-ratio: 1.125;
@@ -101,19 +81,11 @@ h6, .h6 {@include typi($h6-map);}
 p {@include typi($p-map);}
 small {@include typi($small-map);}
 
-.site-name {
-  @include typi($site-name-map);
-  font-weight: bold;
+body {font-family: $sans;}
+.post {font-family: $serif;}
+h1, h2, h3, h4, h5, h6 {font-family: $sans}
 
-  .phrasing {
-    font-weight: 300;
-  }
-}
-
-.topbar-inner .link {
-  @include typi($small-map);
-}
-
-.card-title {
-  @include typi($card-title-map);
+.dropcap {
+  font-family: $serif;
+  margin-right: 0.05em;
 }

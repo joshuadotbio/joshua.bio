@@ -1,3 +1,11 @@
 ---
 layout: default
 ---
+<div class="container">
+{% for post in site.posts %}
+<article class="card post-listing m-hover">
+  <h5>{{ post.title }}</h5>
+  {{ post.description | markdownify }}
+</article>
+{% endfor %}
+</div>

@@ -18,7 +18,7 @@ var phrasing = (function() {
     return index;
   }
   module.update = function() {
-    $('.phrasing').text(data.responseJSON.phrasing[getIndex()]);
+    $('.j-phrasing').text(data.responseJSON.phrasing[getIndex()]);
   }
   module.getLast = function() {
     return last;
@@ -30,16 +30,16 @@ data.done(function() {
   phrasing.update();
 });
 
-$('.phrasing').click(function() {
+$('.j-phrasing').click(function() {
   phrasing.update();
 });
 
-$('.post-listing').click(function() {
+$('.j-href').click(function() {
   window.location = this.getAttribute("href");
 });
 
 $(function() {
-  $('.post-body p').first().html(function (i, html) {
+  $('.j-doDropcap').first().html(function (i, html) {
     return html.replace(/^[^a-zA-Z]*([a-zA-Z])/g, '<span class="dropcap">$1</span>');
   });
   window.Dropcap.layout(document.querySelectorAll(".dropcap"), 3, 2);

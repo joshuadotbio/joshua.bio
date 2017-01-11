@@ -1,0 +1,28 @@
+.container {
+  @include container();
+}
+
+.card {
+  position: relative;
+  background: c(white);
+  padding: 1rem;
+
+  @include breakpoint(w(iPadAir_p)) {
+    @include span(6);
+    padding: 2rem;
+  }
+
+  @include breakpoint(w(iPadAir_l)) {
+    @include span(4);
+    padding: 3rem;
+  }
+
+  &.m-hover {
+    transition: box-shadow 0.25s;
+
+    &:hover {
+      box-shadow: shadow(3);
+      z-index: 10;
+    }
+  }
+}
