@@ -1,8 +1,0 @@
-.post-listing {
-  @include breakpoint(w(iPadAir_p)) {
-    @include span(6);
-  }
-  @include breakpoint(w(iPadAir_l)) {
-    @include span(4);
-  }
-}
