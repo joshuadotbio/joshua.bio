@@ -14,7 +14,8 @@ body {
   $hover: lighten($background, 2%);
 
   display: inline-block;
-  padding: 0.33em 1em;
+  padding: 0.5em 1em;
+  margin-bottom: 1em;
   border-radius: 0.2em;
   background: $background;
   color: #FEFAFB;
