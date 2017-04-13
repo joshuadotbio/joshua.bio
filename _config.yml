@@ -30,6 +30,8 @@ exclude:
   - 'gulpfile.js'
   - 'Gemfile'
   - 'Gemfile.lock'
+keep_files:
+  - '.htaccess'
 sass:
   style: compressed
   sass_dir: _sass
