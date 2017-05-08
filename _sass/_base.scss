@@ -1,3 +1,13 @@
 * {
   box-sizing: border-box;
 }
+
+a {
+  text-decoration: none;
+  border-bottom: 6px solid lightblue;
+  transition: border 0.1s;
+
+  &:hover {
+    border-bottom: 6px solid blue;
+  }
+}

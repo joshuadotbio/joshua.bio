@@ -1,0 +1,23 @@
+.media {
+  display: flex;
+  align-items: flex-start;
+}
+
+.media-left {
+  margin-right: 0.5em;
+  img {
+    max-width: 3em;
+    max-height: 3em;
+    display: block;
+    border-radius: 3em;
+  }
+}
+
+.media-body {
+  flex: 1;
+}
+
+.media-right {
+  margin-left: 0.5em;
+  text-align: right;
+}
