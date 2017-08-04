@@ -1,3 +1,20 @@
 * {
   box-sizing: border-box;
 }
+
+a {
+  color: map-get($colors,link);
+  text-decoration: none;
+
+  &:visited {
+    color: map-get($colors,link);
+  }
+
+  &:hover {
+    color: lighten(map-get($colors,link), 10%);
+  }
+}
+
+.background-1 {
+  background: #afb;
+}
