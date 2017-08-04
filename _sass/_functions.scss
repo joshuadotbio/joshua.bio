@@ -1,0 +1,31 @@
+@function w($key) {
+  @if map-has-key($breakpoints, $key) {
+    @return map-get($breakpoints, $key);
+  }
+  @warn "Unknown `#{$key}` in $breakpoints.";
+  @return null;
+}
+
+@function z($key) {
+  @if map-has-key($z-index, $key) {
+    @return map-get($z-index, $key);
+  }
+  @warn "Unknown `#{$key}` in $z-index.";
+  @return null;
+}
+
+@function c($key) {
+  @if map-has-key($colors, $key) {
+    @return map-get($colors, $key);
+  }
+  @warn "Unknown `#{$key}` in $colors.";
+  @return null;
+}
+
+@function shadow($key) {
+  @if map-has-key($shadows, $key) {
+    @return unquote(map-get($shadows, $key));
+  }
+  @warn "Unknown `#{$key}` in $shadows.";
+  @return null;
+}

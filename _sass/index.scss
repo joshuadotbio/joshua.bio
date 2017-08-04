@@ -1,6 +1,10 @@
 @import 'lib/normalize';
-@import 'lib/susy/_susy.scss';
+@import 'lib/breakpoint';
+@import 'lib/susy';
+@import 'lib/modular-scale';
+@import 'lib/typi';
 /*! Joshua Gonzales https://joshua.bio */
+@import 'functions';
 @import 'variables';
 @import 'typography';
 @import 'utilities';
