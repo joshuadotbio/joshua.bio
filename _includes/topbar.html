@@ -1,0 +1,17 @@
+<div class="topbar">
+  <div class="media">
+    <div class="media-left">
+      <img src="/assets/images/profile.jpg" srcset="/assets/images/profile.jpg 1x, /assets/images/profile@2x.jpg 2x, /assets/images/profile@3x.jpg 3x">
+    </div>
+    <div class="media-body m-flexcenter">
+      <span>{% if page.seo_title %}{{ page.seo_title | escape }}{% elsif page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</span>
+    </div>
+    <div class="media-right">
+      <div class="burger">
+        <span class="top"></span>
+        <span class="middle"></span>
+        <span class="bottom"></span>
+      </div>
+    </div>
+  </div>
+</div>
