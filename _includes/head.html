@@ -4,18 +4,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <meta property="og:url" content="{{ page.url | prepend: site.baseurl | prepend: site.url }}" />
-  <meta property="og:type" content="article"/>
+  <meta property="og:type" content="{% if page.type %}{{ page.type }}{% else %}{{ site.type }}{% endif %}"/>
   {% if page.title %}
-  <meta property="og:title" content="{{ page.title | escape }}"/>
+  <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}"/>
   {% endif %}
   {% if page.description %}
-  <meta property="og:description" content="{{ page.description }}"/>
+  <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}"/>
   {% endif %}
   {% if page.facebook_image %}
-  <meta property="og:image" content="{{ page.facebook_image }}"/>
+  <meta property="og:image" content="{% if page.facebook_image %}{{ page.facebook_image }}{% else %}{{ site.facebook_image }}{% endif %}"/>
   {% endif %}
 
-  <title>{% if page.seo_title %}{{ page.seo_title | escape }}{% elsif page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+  <title>{% if page.seo_title %}{{ page.seo_title | append: " [Joshua Gonzales]" | escape }}{% elsif page.title %}{{ page.title | append: " [Joshua Gonzales]" | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="description" content="{% if page.seo_description %}{{ page.seo_description | strip_html | strip_newlines }}{% elsif page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description | strip_html | strip_newlines }}{% endif %}"/>
 
   <link rel="canonical" href="{{ page.url | prepend: site.baseurl | prepend: site.url }}"/>

@@ -1,58 +1,42 @@
-$breakpoints: (
-  iPhone5_p: 320px,
-  iPhone6_p: 375px,
-  iPhone5_l: 568px,
-  iPhone6_l: 667px,
-  iPadAir_p: 768px,
-  iPadAir_l: 1024px,
-  laptop: 1440px,
-  desktop: 1680px
+$site: (
+  horizontal-padding: 1rem
 );
 
-$z-index: (
-  England: -9999
+// Breakpoints
+
+@mixin for-phone-only {
+  @media (max-width: 599px) { @content; }
+}
+@mixin for-tablet-portrait-up {
+  @media (min-width: 600px) { @content; }
+}
+@mixin for-tablet-landscape-up {
+  @media (min-width: 900px) { @content; }
+}
+@mixin for-desktop-up {
+  @media (min-width: 1200px) { @content; }
+}
+@mixin for-big-desktop-up {
+  @media (min-width: 1800px) { @content; }
+}
+
+$z-indexes: (
+  England: -9999,
+  topbar: 100
 );
 
 $colors: (
   black: #222,
   white: #fff,
-  body: #D17A22,
-  link: #067BC2
-);
-
-$shadows: (
-  1: "0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)",
-  2: "0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)",
-  3: "0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23)",
-  4: "0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22)",
-  5: '0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22)'
+  link: #0000dd,
+  highlight-1: #7EE8FA,
+  highlight-2: #80FF72,
+  subtle-1: #EEE5E9
 );
 
 $susy: (
-  flow: ltr,
-  math: fluid,
-  output: float,
-  gutter-position: split,
-  container: 1200px,
-  container-position: center,
-  columns: 12,
+  columns: susy-repeat(3),
   gutters: 0,
-  column-width: false,
-  global-box-sizing: border-box,
-  last-flow: to
+  spread: 'narrow',
+  container-spread: 'narrow'
 );
-
-$c1: rgba(243, 232, 238, 1);
-$c2: rgba(186, 205, 176, 1);
-$c3: rgba(114, 155, 121, 1);
-$c4: rgba(71, 91, 99, 1);
-$c5: rgba(46, 44, 47, 1);
-
-$media-left-image-width: 3em;
-
-$topbar-background: white;
-$topbar-burger-height: 2em;
-$topbar-burger-width: $topbar-burger-height*1.2;
-$topbar-burger-slice-height: $topbar-burger-height/5;
-$topbar-burger-background: black;
-$topbar-burger-vertical-padding: ($media-left-image-width - $topbar-burger-height)/2;
