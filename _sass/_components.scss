@@ -60,7 +60,9 @@
   color: #fff;
 
   &:hover {
-    background: #000;
+    @include for-desktop-up() {
+      background: #000;
+    }
   }
 }
 
