@@ -2,7 +2,26 @@ $site: (
   horizontal-padding: 1rem
 );
 
-// Breakpoints
+$susy: (
+  columns: susy-repeat(12),
+  gutters: 0,
+  spread: 'narrow',
+  container-spread: 'narrow'
+);
+
+$z-indexes: (
+  England: -9999,
+  topbar: 100
+);
+
+$colors: (
+  black: #222,
+  white: #fff,
+  link: #0000dd,
+  highlight-1: #7EE8FA,
+  highlight-2: #80FF72,
+  subtle-1: #EEE5E9
+);
 
 @mixin for-phone-only {
   @media (max-width: 599px) { @content; }
@@ -19,24 +38,3 @@ $site: (
 @mixin for-big-desktop-up {
   @media (min-width: 1800px) { @content; }
 }
-
-$z-indexes: (
-  England: -9999,
-  topbar: 100
-);
-
-$colors: (
-  black: #222,
-  white: #fff,
-  link: #0000dd,
-  highlight-1: #7EE8FA,
-  highlight-2: #80FF72,
-  subtle-1: #EEE5E9
-);
-
-$susy: (
-  columns: susy-repeat(3),
-  gutters: 0,
-  spread: 'narrow',
-  container-spread: 'narrow'
-);
