@@ -3,7 +3,38 @@
 }
 
 body {
+  font-family: 'Lato', sans-serif;
+  font-size: 100%;
   color: #111;
+
+  @include for-tablet-landscape-up() {
+    font-size: 150%;
+  }
+}
+
+body {
+}
+
+p {
+  line-height: 1.4;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Russo One', sans-serif;
+}
+
+h2 {
+  font-size: 1em;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.lato {
+  font-family: 'Lato', sans-serif;
 }
 
 a {
@@ -16,5 +47,22 @@ a {
 
   &:hover {
     color: lighten(map-get($colors, link), 10%);
+  }
+}
+
+.dark {
+  $c: #478;
+  background-color: $c;
+  background-image: linear-gradient(to bottom, $c, darken($c,5%));
+  color: #fdfdfd;
+  font-family: 'Roboto', sans-serif;
+
+  a {
+    color: inherit;
+    text-decoration: underline;
+
+    &:hover {
+      text-decoration: none;
+    }
   }
 }

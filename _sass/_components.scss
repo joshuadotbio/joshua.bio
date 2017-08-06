@@ -25,19 +25,13 @@
   padding-right: 1em;
 }
 
-.dark {
-  $c: #478;
-  background-color: $c;
-  background-image: linear-gradient(to bottom, $c, darken($c,5%));
-  color: #fafafa;
-}
-
 .button {
   padding: 0.5em 0.75em;
   margin-bottom: 0.2em;
   display: inline-block;
   background: #333;
-  color: #fafafa;
+  color: #fdfdfd;
+  text-decoration: none !important;
 
   &:hover {
     @include for-desktop-up() {
