@@ -4,14 +4,14 @@ layout: frontpage
 
 # My mission
 
-From the moment a software developer starts planning a new application, they begin making decisions that ultimately impact the privacy and security of their users. I want to be the person they can turn to for help in
+I started teaching myself Linux server administration in 2005 by experimenting on a pair of broken laptops that I fixed. I was fifteen years old at the time, and my family had just recently immigrated to the USA from the Philippines. Since then, I've followed along as software developers shifted from interacting with bare iron servers to operating entirely on third-party cloud computing infrastructures, and user data started becoming an increasingly valuable asset.
 
-If Trump Ipsum weren’t my own words, perhaps I’d be dating it. Does everybody know that pig named Lorem Ipsum? She's a disgusting pig, right? Lorem Ipsum better hope that there are no "tapes" of our conversations before he starts leaking to the press! I will write some great placeholder text – and nobody writes better placeholder text than me, believe me – and I’ll write it very inexpensively. I will write some great, great text on your website’s Southern border, and I will make Google pay for that text. Mark my words. Lorem Ipsum is the single greatest threat. We are not - we are not keeping up with other websites.
+As internet-based businesses grow more interconnected and interdependent, the risks associated with security breaches and the unethical handling of data have also grown. **I want to do my part to make sure that this revolutionary expansion in the use of networked data proceeds safely, ethically, and responsibly.**
 
-You’re disgusting. My placeholder text, I think, is going to end up being very good with women.
+My experience gives me an inside perspective on how data is moved and stored, and on the challenges companies face in maintaining privacy and security standards while keeping software products scalable, usable, and globally accessible.
 
-I think the only difference between me and the other placeholder text is that I’m more honest and my words are more beautiful. You know, it really doesn’t matter what you write as long as you’ve got a young, and beautiful, piece of text.
+Now, I am in law school because I want to learn the regulatory and legal sides of the puzzle. I believe that combining my technical knowledge with legal expertise will position me well to make an impact in the world of digital privacy.
 
-Look at these words. Are they small words? And he referred to my words - if they're small, something else must be small. I guarantee you there's no problem, I guarantee. We are going to make placeholder text great again. Greater than ever before. That other text? Sadly, it’s no longer a 10.
+## Immigration Law
 
-Some people have an ability to write placeholder text... It's an art you're basically born with. You either have it or you don't. Lorem Ipsum is the single greatest threat. We are not - we are not keeping up with other websites. Lorem Ipsum's father was with Lee Harvey Oswald prior to Oswald's being, you know, shot. Look at that text! Would anyone use that? Can you imagine that, the text of your next webpage?! Does everybody know that pig named Lorem Ipsum? She's a disgusting pig, right? Lorem Ipsum better hope that there are no "tapes" of our conversations before he starts leaking to the press!
+Besides digital privacy, I also want to pursue a specialty in immigration law. Being an immigrant myself, I know how difficult it can be to navigate the immigration system on your own, and so I want to be someone that immigrant families in need can turn to for aid and counsel.
