@@ -11,12 +11,12 @@
   }
 }
 
-.pitch {
-  padding-bottom: 1em;
+.contained {
+  margin: 0 auto;
+  max-width: 1200px;
 
-  @include for-desktop-up() {
-    float: left;
-    width: span(4);
+  &.tight {
+    max-width: 900px;
   }
 }
 
@@ -25,9 +25,11 @@
   padding-right: 1em;
 }
 
-.masthead {
-  background: url(/assets/images/merced-sky-and-rail.jpg) no-repeat top left;
-  background-size: cover;
+.dark {
+  $c: #478;
+  background-color: $c;
+  background-image: linear-gradient(to bottom, $c, darken($c,5%));
+  color: #fafafa;
 }
 
 .button {
@@ -54,5 +56,40 @@
 
   a {
     @extend .button;
+  }
+}
+
+.pitch {
+  padding-bottom: 1em;
+
+  @include for-desktop-up() {
+    float: left;
+    width: span(4);
+  }
+}
+
+.masthead {
+  background: url(/assets/images/merced-sky-and-rail.jpg) no-repeat top left;
+  background-size: cover;
+}
+
+.footer-left {
+  padding-bottom: 1em;
+  @include for-desktop-up() {
+    float: left;
+    width: span(7);
+  }
+}
+
+.footer-right {
+  padding-bottom: 1em;
+  @include for-desktop-up() {
+    float: left;
+    width: span(5);
+  }
+
+  ul {
+    margin-top: 0;
+    margin-bottom: 0;
   }
 }

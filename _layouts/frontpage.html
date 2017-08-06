@@ -7,21 +7,13 @@ layout: default
     <h1>Hi, I'm Joshua Gonzales.</h1>
     <p>{{ site.description }}</p>
     <ul class="button-group">
-      <li><a href="sms:+12097561426">Text: +1 (209) 756-1426</a></li>
-      <li><a href="mailto:j@joshua.bio">j@joshua.bio</a></li>
-      <li><a href="https://www.linkedin.com/in/jfmgonzales/" rel="nofollow">LinkedIn</a></li>
-      <li><a href="https://www.facebook.com/jfmgonzales" rel="nofollow">Facebook</a></li>
-      <li><a href="https://twitter.com/@joshuadotbio" rel="nofollow">Twitter</a></li>
-      <li><a href="https://www.instagram.com/joshuadotbio/" rel="nofollow">Instagram</a></li>
-      <li><a href="https://www.snapchat.com/add/jjfmg" rel="nofollow">Snapchat</a></li>
-      <li><a href="/gpg.txt" rel="nofollow">My GPG Key</a></li>
-      <li><a href="/ssh.txt" rel="nofollow">My SSH Key</a></li>
+      {% include links.html %}
     </ul>
   </article>
 
 </div>
 
-<article class="block">
+<article class="block dark">
 
   <div class="pitch padded">
     <h2>Strengthening my community</h2>
@@ -45,3 +37,9 @@ layout: default
   </div>
 
 </article>
+
+<div class="block">
+  <article class="contained tight padded">
+    {{ content }}
+  </article>
+</div>
