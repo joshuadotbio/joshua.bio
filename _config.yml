@@ -10,11 +10,9 @@ title: "Joshua Gonzales, law student and web technologist"
 description: "I'm a first-year law student at UC Davis School of Law. I have a strong background in web technology, and I plan to specialize in digital privacy law."
 baseurl: '' # the subpath of your site, e.g. /blog
 url: 'https://joshua.bio' # the base hostname & protocol for your site
+author: Joshua Gonzales
 facebook_image: ''
 type: 'article'
-twitter: '@joshuadotbio'
-facebook: 'jfmgonzales'
-snapchat: 'jjfmg'
 
 categories:
 

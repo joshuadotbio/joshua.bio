@@ -71,3 +71,18 @@
     margin-bottom: 0;
   }
 }
+
+.metadata {
+  list-style: none;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.8em;
+
+  span, a {
+    display: inline-block;
+  }
+
+  a {
+    color: inherit;
+  }
+}
