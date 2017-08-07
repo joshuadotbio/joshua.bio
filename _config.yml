@@ -37,3 +37,10 @@ keep_files:
 sass:
   style: compressed
   sass_dir: _sass
+
+defaults:
+  -
+    scope:
+      path: "" # empty string for all files
+    values:
+      layout: "page"
