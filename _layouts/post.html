@@ -1,20 +1,6 @@
 ---
-layout: default
+layout: page
 scss: post
 ---
 
-<div class="block">
-
-  <article class="contained tight padded">
-    <header>
-      <h1>{{ page.title }}</h1>
-      <div class="metadata">
-        <a href="{% if page.author_url %}{{ page.author_url }}{% else %}{{ site.url }}{% endif %}"{% if page.author_url %} rel="nofollow"{% endif %}>Written by {% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %}</a> | <span>Published {{ page.date | date_to_string }}</span> | <span>{% if page.last_updated %}Updated {{ page.last_updated | date_to_string }}{% endif %}</span>
-      </div>
-    </header>
-    <main>
-      {{ content }}
-    </main>
-  </article>
-
-</div>
+{{ content }}
