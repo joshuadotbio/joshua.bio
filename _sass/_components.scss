@@ -6,12 +6,6 @@
   max-width: 2200px;
 }
 
-.description {
-  @include for-desktop-up() {
-    width: span(4);
-  }
-}
-
 .contained {
   margin: 0 auto;
   max-width: 1200px;
@@ -53,20 +47,6 @@
   a {
     @extend .button;
   }
-}
-
-.pitch {
-  padding-bottom: 1em;
-
-  @include for-desktop-up() {
-    float: left;
-    width: span(4);
-  }
-}
-
-.masthead {
-  background: url(/assets/images/merced-sky-and-rail.jpg) no-repeat top left;
-  background-size: cover;
 }
 
 .footer-left {

@@ -1,0 +1,19 @@
+.identity {
+  background: url(/assets/images/merced-sky-and-rail.jpg) no-repeat top left;
+  background-size: cover;
+
+  article {
+    @include for-desktop-up() {
+      width: span(4);
+    }
+  }
+}
+
+.pitch {
+  padding-bottom: 1em;
+
+  @include for-desktop-up() {
+    float: left;
+    width: span(4);
+  }
+}

@@ -15,6 +15,7 @@
   <link rel="canonical" href="{{ page.url | prepend: site.baseurl | prepend: site.url }}"/>
   {% capture _SASS %}
     {% include inline.scss %}
+    {% if layout.scss %}{{ layout.scss | prepend: "@import 'layouts/" | append: "';"}}{% endif %}
   {% endcapture %}
   <style>
     {{ _SASS | scssify }}
