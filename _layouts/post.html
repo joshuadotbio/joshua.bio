@@ -4,12 +4,12 @@ scss: post
 ---
 
 <article>
-  <main class="block short contained tight padded">
+  <div class="block short contained tight padded">
     <header>
       <h1>{{ page.title }}</h1>
     </header>
     {{ content }}
-  </main>
+  </div>
   <footer>
     <div class="post-meta block dark">
       <div class="contained tight padded">
@@ -21,11 +21,13 @@ scss: post
     <div class="block contained tight padded">
       <h1>Hey, so listen.</h1>
       <p>
-        I'd love to hear what you think of this page.
+        I'd love to hear what you think. Whether you found this page useful, or you have something to add, or even if you think this page sucked, and you'd like to tell me why &mdash; whatever it is, I would appreciate if you dropped me a message using any of the tools below.
       </p>
-      <ul class="button-group">
-        {% include links.html %}
-      </ul>
+      <p>
+        <ul class="button-group">
+          {% include links.html %}
+        </ul>
+      </p>
     </div>
   </footer>
 </article>
