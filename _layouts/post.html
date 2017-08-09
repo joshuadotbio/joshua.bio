@@ -10,15 +10,15 @@ scss: post
     </header>
     {{ content }}
   </div>
-  <div class="block dark text-center">
+  <footer class="block dark text-center">
     <div class="contained tight padded">
       <h2>About this page</h2>
       <p>
         This page was written by <a href="{% if page.author_url %}{{ page.author_url }}{% else %}{{ site.url }}{% endif %}"{% if page.author_url %}{% endif %}>{% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %}</a>, and published on <date>{{ page.date | date_to_long_string | replace: " ","&nbsp"}}</date>.{% if page.last_updated %} It was last updated on {{ page.last_updated | date_to_long_string | replace: " ","&nbsp"}}.{% endif %}
       </p>
     </div>
-  </div>
-  <div class="block contained tight padded">
+  </footer>
+  <aside class="block contained tight padded">
     <h1>Hey, so listen.</h1>
     <p>
       I'd love to hear what you think. Whether you found this page useful, or you have something to add, or even if you think this page sucked, and you'd like to tell me why &mdash; whatever it is, I would appreciate if you dropped me a message using any of the tools below.
@@ -28,5 +28,5 @@ scss: post
         {% include links.html %}
       </ul>
     </p>
-  </div>
+  </aside>
 </article>
