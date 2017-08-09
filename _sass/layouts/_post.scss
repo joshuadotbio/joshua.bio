@@ -1,11 +1,6 @@
-.metadata {
-  padding: 0.25em 0.75em 0.25em 0.25em;
-  display: inline-block;
-  background: rgba(230,230,230,0.5);
+.post-meta {
+  text-align: center;
+  background: #eee;
+  font-family: 'Roboto', sans-serif;
   font-size: 0.8em;
-  border-left: 0.5em solid rgba(230,230,230,1);
-
-  @include for-tablet-landscape-up() {
-    font-size: 0.6em;
-  }
 }

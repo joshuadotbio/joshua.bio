@@ -4,6 +4,10 @@
   padding-top: 3em;
   padding-bottom: 10em;
   max-width: 2200px;
+
+  &.short {
+    padding-bottom: 3em;
+  }
 }
 
 .contained {
