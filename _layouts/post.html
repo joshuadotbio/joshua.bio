@@ -10,11 +10,22 @@ scss: post
     </header>
     {{ content }}
   </main>
-  <footer class="post-meta block short">
-    <div class="contained tight padded">
+  <footer>
+    <div class="post-meta block dark">
+      <div class="contained tight padded">
+        <p>
+          This page was written by <a href="{% if page.author_url %}{{ page.author_url }}{% else %}{{ site.url }}{% endif %}"{% if page.author_url %} rel="nofollow"{% endif %}>{% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %}</a>, and published on <date>{{ page.date | date_to_long_string | replace: " ","&nbsp"}}</date>.{% if page.last_updated %} It was last updated on {{ page.last_updated | date_to_long_string | replace: " ","&nbsp"}}.{% endif %}
+        </p>
+      </div>
+    </div>
+    <div class="block contained tight padded">
+      <h1>Hey, so listen.</h1>
       <p>
-        This page was written by <a href="{% if page.author_url %}{{ page.author_url }}{% else %}{{ site.url }}{% endif %}"{% if page.author_url %} rel="nofollow"{% endif %}>{% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %}</a>, and published on {{ page.date | date_to_long_string | replace: " ","&nbsp"}}.{% if page.last_updated %} It was last updated on {{ page.last_updated | date_to_long_string | replace: " ","&nbsp"}}.{% endif %}
+        I'd love to hear what you think of this page.
       </p>
+      <ul class="button-group">
+        {% include links.html %}
+      </ul>
     </div>
   </footer>
 </article>

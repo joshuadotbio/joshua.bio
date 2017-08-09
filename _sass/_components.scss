@@ -20,8 +20,8 @@
 }
 
 .padded {
-  padding-left: 1em;
-  padding-right: 1em;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .button {
@@ -63,7 +63,6 @@
 
 .footer-right {
   padding-bottom: 1em;
-  text-align: center;
   @include for-desktop-up() {
     float: left;
     width: span(5);
