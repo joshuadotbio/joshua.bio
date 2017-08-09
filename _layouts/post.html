@@ -11,11 +11,11 @@ scss: post
     {{ content }}
   </div>
   <footer>
-    <div class="post-meta block dark">
+    <div class="block dark text-center">
       <div class="contained tight padded">
         <h2>About this page</h2>
         <p>
-          This page was written by <a href="{% if page.author_url %}{{ page.author_url }}{% else %}{{ site.url }}{% endif %}"{% if page.author_url %} rel="nofollow"{% endif %}>{% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %}</a>, and published on <date>{{ page.date | date_to_long_string | replace: " ","&nbsp"}}</date>.{% if page.last_updated %} It was last updated on {{ page.last_updated | date_to_long_string | replace: " ","&nbsp"}}.{% endif %}
+          This page was written by <a href="{% if page.author_url %}{{ page.author_url }}{% else %}{{ site.url }}{% endif %}"{% if page.author_url %}{% endif %} rel="author">{% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %}</a>, and published on <date>{{ page.date | date_to_long_string | replace: " ","&nbsp"}}</date>.{% if page.last_updated %} It was last updated on {{ page.last_updated | date_to_long_string | replace: " ","&nbsp"}}.{% endif %}
         </p>
       </div>
     </div>

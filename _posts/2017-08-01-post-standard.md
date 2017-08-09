@@ -3,7 +3,6 @@ layout: post
 title: This is a standard blog post.
 description: My standards posts are prose and very rarely have photos.
 seo_title: Standard blog post
-last_updated: 2017/08/08
 ---
 
 I write the best placeholder text, and I'm the biggest developer on the web by far... While that's mock-ups and this is politics, are they really so different? Be careful, or I will spill the beans on your placeholder text. I'm speaking with myself, number one, because I have a very good brain and I've said a lot of things. You have so many different things placeholder text has to be able to do, and I don't believe Lorem Ipsum has the stamina.
