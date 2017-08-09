@@ -51,6 +51,10 @@ a {
   }
 }
 
+img {
+  max-width: 100%;
+}
+
 .dark {
   $c: #478;
   background-color: $c;
