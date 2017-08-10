@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/joshuagonzales
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://joshua.bio
+  * I am joshuagonzales (https://keybase.io/joshuagonzales) on keybase.
+  * I have a public key ASDXI2UrpQ59ztFdqc_nq1JwWC1zfPaBkt77oy10jGKbigo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120d723652ba50e7dced15da9cfe7ab5270582d737cf68192defba32d748c629b8a0a",
+      "host": "keybase.io",
+      "kid": "0120d723652ba50e7dced15da9cfe7ab5270582d737cf68192defba32d748c629b8a0a",
+      "uid": "c4c3a848db8b6bdf55a901cfdb001119",
+      "username": "joshuagonzales"
+    },
+    "merkle_root": {
+      "ctime": 1502325670,
+      "hash": "ab54e737eeb31b43b4390ed5f559a7742785d5821af694119969533c298637ec8b378bbbc609c8c7a9d99fc36e1ef400a472954505dbecf951116e61bdc397b5",
+      "hash_meta": "25fcca3111f37352324013fac60d3be793b7917044cc3df7c687af8655dcefee",
+      "seqno": 1316520
+    },
+    "service": {
+      "hostname": "joshua.bio",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.25"
+  },
+  "ctime": 1502325742,
+  "expire_in": 504576000,
+  "prev": "b5fc007403ad0c0c614a0f5b45675899347dd89b7dd47131dd88261961d58bf8",
+  "seqno": 6,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg1yNlK6UOfc7RXanP56tScFgtc3z2gZLe+6MtdIxim4oKp3BheWxvYWTFA0h7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwZDcyMzY1MmJhNTBlN2RjZWQxNWRhOWNmZTdhYjUyNzA1ODJkNzM3Y2Y2ODE5MmRlZmJhMzJkNzQ4YzYyOWI4YTBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwZDcyMzY1MmJhNTBlN2RjZWQxNWRhOWNmZTdhYjUyNzA1ODJkNzM3Y2Y2ODE5MmRlZmJhMzJkNzQ4YzYyOWI4YTBhIiwidWlkIjoiYzRjM2E4NDhkYjhiNmJkZjU1YTkwMWNmZGIwMDExMTkiLCJ1c2VybmFtZSI6Impvc2h1YWdvbnphbGVzIn0sIm1lcmtsZV9yb290Ijp7ImN0aW1lIjoxNTAyMzI1NjcwLCJoYXNoIjoiYWI1NGU3MzdlZWIzMWI0M2I0MzkwZWQ1ZjU1OWE3NzQyNzg1ZDU4MjFhZjY5NDExOTk2OTUzM2MyOTg2MzdlYzhiMzc4YmJiYzYwOWM4YzdhOWQ5OWZjMzZlMWVmNDAwYTQ3Mjk1NDUwNWRiZWNmOTUxMTE2ZTYxYmRjMzk3YjUiLCJoYXNoX21ldGEiOiIyNWZjY2EzMTExZjM3MzUyMzI0MDEzZmFjNjBkM2JlNzkzYjc5MTcwNDRjYzNkZjdjNjg3YWY4NjU1ZGNlZmVlIiwic2Vxbm8iOjEzMTY1MjB9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoiam9zaHVhLmJpbyIsInByb3RvY29sIjoiaHR0cHM6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjI1In0sImN0aW1lIjoxNTAyMzI1NzQyLCJleHBpcmVfaW4iOjUwNDU3NjAwMCwicHJldiI6ImI1ZmMwMDc0MDNhZDBjMGM2MTRhMGY1YjQ1Njc1ODk5MzQ3ZGQ4OWI3ZGQ0NzEzMWRkODgyNjE5NjFkNThiZjgiLCJzZXFubyI6NiwidGFnIjoic2lnbmF0dXJlIn2jc2lnxEDBP+kRTzCxfYRLPA0DRsJBxfCUzUcmBGvnT31rgCBjs6JgusPt2qpaFzd+CK4wGhaKzBbAR9QVgmLrJIwnBaMPqHNpZ190eXBlIKRoYXNogqR0eXBlCKV2YWx1ZcQgMvtKn2SB7BgRs5by49djHaAT3PIq+448WUtsPctsGI+jdGFnzQICp3ZlcnNpb24B
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/joshuagonzales
+
+==================================================================
