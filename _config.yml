@@ -7,7 +7,7 @@
 
 # Site settings
 title: "Joshua Gonzales, law student and web technologist"
-description: "I'm a first-year law student at UC Davis School of Law. I have a strong background in web technology, and I plan to specialize in digital privacy law."
+description: "I'm a first-year law student at UC Davis School of Law. I have a strong background in web technology, and I plan to specialize in cybersecurity law."
 baseurl: '' # the subpath of your site, e.g. /blog
 url: 'https://joshua.bio' # the base hostname & protocol for your site
 author: Joshua Gonzales

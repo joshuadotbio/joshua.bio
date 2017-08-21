@@ -10,8 +10,8 @@ As internet-based businesses grow more interconnected and interdependent, the ri
 
 My experience gives me an inside perspective on how data is moved and stored, and on the challenges companies face in meeting privacy and security standards while keeping software products scalable, usable, and globally accessible.
 
-Now, I am in law school to learn the regulatory and legal sides of the puzzle. I believe that combining my technical knowledge with legal expertise will position me well to make an impact in the world of digital privacy.
+Now, I am in law school to learn the regulatory and legal sides of the puzzle. I believe that combining my technical knowledge with legal expertise will position me well to make an impact in the world of digital privacy and cybersecurity law.
 
 ## Immigration Law
 
-Besides digital privacy, I also want to pursue a specialty in immigration law. Being an immigrant myself, I know how difficult it can be to navigate the immigration system on your own, and so I want to be someone that immigrant families in need can turn to for aid and counsel.
+Besides cybersecurity law, I also want to pursue a specialty in immigration law. Being an immigrant myself, I know how difficult it can be to navigate the immigration system on your own, and so I want to be someone that immigrant families in need can turn to for aid and counsel.
