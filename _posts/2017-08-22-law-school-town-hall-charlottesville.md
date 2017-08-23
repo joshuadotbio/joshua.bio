@@ -1,7 +1,7 @@
 ---
 layout: post
 title: My law school held a town hall about Charlottesville.
-description: Could the violence at the Unite The Right rally been prevented by good lawyering?
+description: Could the violence at the Unite The Right rally have been prevented by good lawyering?
 seo_title: UC Davis School of Law held a town hall about Charlottesville.
 ---
 
