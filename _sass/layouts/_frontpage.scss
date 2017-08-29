@@ -4,7 +4,10 @@
 
   article {
     @include for-desktop-up() {
-      width: span(4);
+      width: span(6);
+    }
+    @include for-big-desktop-up() {
+      width: span(6);
     }
   }
 }
