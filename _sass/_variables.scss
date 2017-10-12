@@ -9,19 +9,24 @@ $susy: (
   container-spread: 'narrow'
 );
 
-$z-indexes: (
+$z-index: (
   England: -9999,
   topbar: 100
 );
 
-$colors: (
-  black: #222,
-  white: #fff,
-  link: #0000dd,
-  highlight-1: #7EE8FA,
-  highlight-2: #80FF72,
-  subtle-1: #EEE5E9
+$light-bg-colors: (
+  text: #222,
+  link: #00d,
+  link-hover: #22f,
+  header: #111
 );
+
+$dark-bg-colors: (
+  text: #fff,
+  link: #aaf,
+  link-hover: #ccf,
+  header: #fff
+); 
 
 @mixin for-phone-only {
   @media (max-width: 599px) { @content; }

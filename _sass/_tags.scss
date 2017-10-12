@@ -1,0 +1,64 @@
+// _tags.scss
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: map-get($light-bg-colors, text);
+  font-size: 100%;
+  font-family: sans-serif;
+
+  @include for-tablet-portrait-up {
+    font-size: 125%;
+  }
+
+  @include for-big-desktop-up {
+    font-size: 150%;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: map-get($light-bg-colors, link);
+
+  &:hover {
+    color: map-get($light-bg-colors, link-hover);
+  }
+}
+
+.dark-bg {
+  color: map-get($dark-bg-colors, text);
+
+  a {
+    color: map-get($dark-bg-colors, link);
+
+    &:hover {
+      color: map-get($dark-bg-colors, link-hover);
+    }
+  }
+}
+
+p {
+  line-height: 1.5;
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+
+h1 {
+  font-size: 3em;
+  font-weight: bold;
+
+  @include for-tablet-portrait-up {
+    font-size: 4em;
+  }
+
+  @include for-big-desktop-up {
+    font-size: 5em;
+  }
+}
